@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  background-color: #f0f8ff;
+}
+
+.pricing-table {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+  padding: 20px;
+}
+
+.plan-name {
+  font-size: 0.9em; /* Adjusted to be smaller */
+  font-weight: 700;
+  color: #666;
+  text-transform: uppercase; /* If you want the text to be uppercase */
+}
+
+.plan-price {
+  font-size: 2em;
+  color: #333;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.feature {
+  font-size: 1em;
+  padding: 10px 0;
+  color: #555;
+}
+
+.feature.available {
+  color: #333;
+}
+
+.feature.unavailable {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.select-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.select-button:hover {
+  background-color: #0056b3;
+}
